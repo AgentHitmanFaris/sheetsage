@@ -32,7 +32,7 @@ RUN apt-get install -y libopenmpi-dev
 RUN apt-get install -y openssh-server
 RUN python -m pip install --no-cache-dir mpi4py==3.0.3
 RUN apt-get install -y git 
-RUN python -m pip install --no-cache-dir git+https://github.com/chrisdonahue/jukebox.git@7e0a38b679ff3f64987d8297d9d0eb5a046880c1
+RUN python -m pip install --no-cache-dir git+https://github.com/chrisdonahue/jukebox.git
 RUN python -m pip install --no-cache-dir requests==2.26.0
 
 # Install pretty_midi
@@ -71,7 +71,7 @@ RUN apt-get install -y lilypond
 RUN python -m pip install --no-cache-dir mir_eval==0.7
 
 # Install youtube-dl
-RUN python -m pip install --no-cache-dir git+https://github.com/yt-dlp/yt-dlp.git@2022.05.18
+RUN python -m pip install --no-cache-dir git+https://github.com/yt-dlp/yt-dlp.git
 RUN ln -s $(which yt-dlp) /usr/local/bin/youtube-dl
 
 # Install validators
