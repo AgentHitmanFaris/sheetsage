@@ -34,7 +34,7 @@ jedi==0.17.2
 Jinja2==3.0.3
 joblib==1.1.0
 jsonschema==3.2.0
-jukebox @ git+https://github.com/chrisdonahue/jukebox.git@7e0a38b679ff3f64987d8297d9d0eb5a046880c1
+jukebox @ git+https://github.com/chrisdonahue/jukebox.git
 jupyter==1.0.0
 jupyter-client==7.1.2
 jupyter-console==6.4.3
