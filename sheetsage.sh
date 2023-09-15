@@ -66,5 +66,5 @@ docker run \
   ${DOCKER_LINK_LIB_ARG} \
   -v $SHEETSAGE_CACHE_DIR:/sheetsage/cache \
   -v $SHEETSAGE_OUTPUT_DIR:/sheetsage/output \
-  chrisdonahue/sheetsage \
+  AgentHitmanFaris/sheetsage \
   python -m sheetsage.infer ${DOCKER_ARGS[@]}
